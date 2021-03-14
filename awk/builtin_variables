@@ -1,0 +1,12 @@
+FS - field separator
+OFS - output field separator
+NF - number if fields
+$0 - entire string
+$n - filed number "n"
+RS - record separator (line separator)
+ORS - output record separator
+FILENAME - current file name
+NR - current input line number
+FNR - current input line number of current file
+CONVFMT - control number-to-string conversions
+OFMT - control number format for print function
