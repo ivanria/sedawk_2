@@ -10,3 +10,5 @@ NR - current input line number
 FNR - current input line number of current file
 CONVFMT - control number-to-string conversions
 OFMT - control number format for print function
+ARGV - array with command-line arguments, first element it is script name, like a C programming language
+ARGC - the num of items in ARGV, first index of ARGV is 0, last is ARGC - 1 - like C programming language
