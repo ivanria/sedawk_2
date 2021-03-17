@@ -1,0 +1,34 @@
+====================
+Arithmetic Functions
+====================
+cos(x) - Cosine of x (x is in radians)
+exp(x) - Returns e to power of x
+int(x) - Returns truncated value of x
+log(x) - Returns natural logarithm (base-e) of x
+sin(x) - Returns sine of x (s is in radians)
+sqrt(x) - returns square root of x
+atan2(y,x) - Returns arctangent of y/x in the range -pi to pi
+rand() - Returns pseudo-random number between -1 and 1
+srand(x) - Establishes new seed for rand()
+===================
+String Functions
+===================
+gsub(r,s,t) - Like "echo $t | sed 's/r/s/g'" if t is not present, defaults is $0
+
+index(s,t) - Returns position of substring t in string s or zero if not present
+
+length(s) - Returns length of string s or length of $0 if s not supplied
+
+match(s,r) - Returns either the position in s where the re r being, or 0 if no occurrences are found. Sets the values RSTART and RLENGTH
+
+split(s,a,sep) - Parses string s into elements of array a using separator sep, returns number of elements. If sep is not present, FS is used. Array splitting works the same way as filed splitting.
+
+sprintf("fmt", expr) - Uses printf format for expr
+
+sub(r,s,t) - Like "echo $t | sed 's/r/s/'" if t is not present, defaults is $0
+
+substr(s,p,n) - Returns substring of string s at beginning position p up to a maximum length of n. If n is not present, the rest of s from p is used.
+
+tolower(s) - Translates all uppercase characters to lowercase
+
+toupper(s) - Translates all lowercase characters to uppercase
