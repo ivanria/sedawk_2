@@ -2,7 +2,7 @@
 Arithmetic Functions
 ====================
 cos(x) - Cosine of x (x is in radians)
-exp(x) - Returns e to power of x
+exp(x) - Returns e to power x
 int(x) - Returns truncated value of x
 log(x) - Returns natural logarithm (base-e) of x
 sin(x) - Returns sine of x (s is in radians)
